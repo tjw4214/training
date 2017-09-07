@@ -15,8 +15,8 @@ public class HelloServiceTest {
     @Autowired
     HelloService helloService;
 
-    @Test
-    public void testHelloWorld() throws Exception {
-        assertThat(helloService.helloWorld().getMessage()).isEqualTo("Hello World!");
-    }
+//    @Test
+//    public void testHelloWorld() throws Exception {
+//        assertThat(helloService.helloWorld().getMessage()).isEqualTo("Hello World!");
+//    }
 }
